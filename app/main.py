@@ -44,6 +44,7 @@ def main():
     stoked = st.checkbox("Are you stoked?", value=False)
     if stoked:
         st.snow()
+        st.write("(Please confirm via email)")
 
 if __name__ == "__main__":
     main()
