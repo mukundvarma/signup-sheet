@@ -11,7 +11,7 @@ def persistdata():
         "Mukund": "V",
         "Viral": "M",
         "Christina": "I",
-        "Rache": "V",
+        "Clauidu": "F",
         "Simon": "L",
         "Olga": "",
         "Dina": "",
