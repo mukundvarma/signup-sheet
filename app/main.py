@@ -9,7 +9,13 @@ def persistdata():
         "Dragos": "V",
         "Kat": "T",
         "Mukund": "V",
-        "Viral": "M"
+        "Viral": "M",
+        "Christina": "I",
+        "Rache": "V",
+        "Simon": "L",
+        "Olga": "",
+        "Dina": "",
+        "Deepika": "",
     }
     return defs
 
@@ -38,6 +44,7 @@ def main():
 
     st.write("Current signups")
     df = pd.Series(signups).to_frame().reset_index()
+    df.index += 1
     df.columns = ['First Name', 'Last Initial']
     st.write(df)
     st.subheader("Sign me up")
