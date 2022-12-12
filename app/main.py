@@ -15,7 +15,7 @@ def persistdata():
         "Olga": "",
         "Dina": "",
         "Deepika": "",
-        "Yotam": "",,
+        "Yotam": "",
         "Clauidu": "F",
         "Kevin": "",
         "Achintya": "V",
