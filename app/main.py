@@ -20,7 +20,8 @@ def persistdata():
         "Kevin": "",
         "Achintya": "V",
         "Prabhav": "J",
-        "Jesika": "H"
+        "Jesika": "H",
+        "Seshadri": "M",
     }
     return defs
 
@@ -33,7 +34,7 @@ def main():
     #     fn = st.text_input("First name", value='Rando')
     #     li = st.text_input("Last initial", value='X')
     #     stoked = st.checkbox("Are you stoked?")
-   
+
     #     submitted = st.form_submit_button("Submit")
 
     #     if submitted:
@@ -43,7 +44,7 @@ def main():
     #             signups[fn] = li
 
     #     st.snow()
-        
+
     spots_remaining = 22 - len(signups)
     st.write(f"Spots remaining: {spots_remaining}")
 
