@@ -7,15 +7,20 @@ import pandas as pd
 def persistdata():
     defs = {
         "Dragos": "V",
+        "Viral": "M",
         "Kat": "T",
         "Mukund": "V",
-        "Viral": "M",
         "Christina": "I",
-        "Clauidu": "F",
         "Simon": "L",
         "Olga": "",
         "Dina": "",
         "Deepika": "",
+        "Yotam": "",,
+        "Clauidu": "F",
+        "Kevin": "",
+        "Achintya": "V",
+        "Prabhav": "J",
+        "Jesika": "H"
     }
     return defs
 
